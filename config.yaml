@@ -225,6 +225,10 @@ keybindings:
   - commands: ['wm-toggle-pause']
     bindings: ['alt+shift+p']
 
+  # Lock Windows
+  - commands: ['shell-exec rundll32.exe user32.dll,LockWorkStation']
+    bindings: ['alt+z']
+
   # Change focus from tiling windows -> floating -> fullscreen.
   - commands: ['wm-cycle-focus']
     bindings: ['alt+space']
